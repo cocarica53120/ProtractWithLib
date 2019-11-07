@@ -16,11 +16,4 @@ export class Person {
     }
 }
 
-import { ElementFinder, element, by } from 'protractor';
-
-export class TestPo {
-
-    public static historyTitle(): ElementFinder {
-        return element(by.css('h4'));
-    }
-}
+export * from "./test.po";
